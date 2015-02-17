@@ -16,7 +16,7 @@ func Fail (t testing, message string) bool {
 }
 
 func Success (t testing, message string) bool {
-  fmt.Println(ansi.Color("✔ " + message, "green"))
+  fmt.Println(ansi.Color("    ✔ " + message, "green"))
   return true
 }
 
