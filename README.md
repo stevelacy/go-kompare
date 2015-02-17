@@ -1,5 +1,7 @@
 # go-kompare
-Minimal go-lang type compare suite
+> Minimal go-lang type compare suite
+
+[Documentation](http://godoc.org/github.com/stevelacy/go-kompare)
 
 ## Installation
 
