@@ -15,10 +15,10 @@ $ go get github.com/stevelacy/go-kompare
 
 ```go
 
-kompare.Type("string", "other string", "this should not fail")
-
-kompare.Type("string", true, "this will fail")
-
+func TestTypeString(t *testing.T) {
+  kompare.Type(t, "string", "test", "string should be string")
+  kompare.Type(t, "true", true, "compare will fail")
+}
 
 ```
 
